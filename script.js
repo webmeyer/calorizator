@@ -1,7 +1,7 @@
-var weight = 5;
-var length = 60;
-var age = 5;
-var activityRate = 1.725;
+var weight = prompt('Какой у Вас вес (в кг)', '');
+var length = prompt('Какой у Вас рост (в см)', '');
+var age = prompt('Сколько Вам лет', '');
+var activityRate = prompt('Ваш индекс активности', '');
 
 // Метаболизм
 var meta = 88.362 + (13.397 * weight) + (4.799 * length) - (5.677 * age);
